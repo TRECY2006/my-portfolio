@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: large;
+    color: orangered;
+    font-weight: bolder;
+    transition: 0.3s ease;
+
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 20px;
+    transform: scale(1.1);
+}
+.navbar a{
+font-size: larger;
+color: orangered;
+font-weight: bolder;
+margin: 0 20px;
+border-bottom: 3px solid transparent;
+transition: 0.3s ease;
+}
+.navbar a:hover, .navbar a:active{
+color: white;
+border-bottom:3px solid transparent; 
+}
+
+.contact{
+    padding: 10px 28px;
+    background-color: black;
+    color: orangered;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    color: black;
+    background-color: white;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7cm;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.home-content span{
+    color: orangered;
+    background-color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.home-content h4{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.hire-btn{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 345px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+hire-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.image img{
+    border-radius: 50%;
+    width: 400px;
+    height: 550px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10cm;
+}
+.about-img img{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    box-shadow: 0 0 25px orangered
+                0 0 50px orangered;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+.about-content span{
+   color: orangered;
+    background-color: white;
+    font-size: larger;
+    font-weight: bolder; 
+}
+.about-content h3{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.about-content h4{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+.contact-form{
+    text-align: center;
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+    font-size: 36px;
+}
+.contact-form form{
+    max-width: 50cm;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3cm;
+}
+.contact-form form .input-box{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.contact-form form .input-box input, .contact-form form textarea{
+    width: 100%;
+    padding: 1.5cm;
+    font-size: 18px;
+    color: black;
+    background: white;
+    border-radius: 8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
